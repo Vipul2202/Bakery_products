@@ -56,7 +56,7 @@ const AddProduct = () => {
   return (
     <div className='add-product'>
         <div className="addproduct-itemfield">
-            <p>Product Title</p>
+            <p>Cake Title</p>
             <input value={productDetails.name} onChange={changeHandler} type="text"  name='name' placeholder='Type here'/>
         </div>
         <div className="addproduct-price">
@@ -70,7 +70,7 @@ const AddProduct = () => {
             </div>
         </div>
         <div className="addproduct-itemfield">
-            <p>Product Category</p>
+            <p>Cake Category</p>
             <select value={productDetails.category} onChange={changeHandler} name="category" className='add-product-selector'>
                 <option value="Gift">Gift</option>
                 <option value="logo">Logo</option>

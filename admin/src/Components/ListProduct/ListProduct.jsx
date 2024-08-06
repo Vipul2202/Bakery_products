@@ -29,7 +29,7 @@ const ListProduct = () => {
 
   return (
     <div className='list-product'>
-        <h1>All Products List</h1>
+        <h1>All Cake List</h1>
         <div className="listproduct-format-main">
           <p>Products</p>
           <p>Title</p>
