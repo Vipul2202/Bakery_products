@@ -213,7 +213,7 @@ export default function AdminHeader({ setIsActive, isActive }) {
         </li>
 
         <li onClick={logout}>
-          <a className="dropdown-item d-flex align-items-center" href="#">
+          <a className="dropdown-item d-flex align-items-center" href="/">
             <i className="bi bi-box-arrow-right"></i>
             <span>Sign Out</span>
           </a>

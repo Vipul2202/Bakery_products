@@ -30,19 +30,30 @@ function App() {
     <Route path="/" element={<Login />} />
     <Route path="/admin" element={<AdminMaster isActive={isActive} setIsActive={setIsActive} />}>
       <Route path="/admin" element={<AdminDashboard isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/card-page" element={<CardPage isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/create-user" element={<Create_user isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/create-product" element={<Addproduct isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/tab" element={<Tab isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/crousel" element={<Crousel isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/update-product/:_id" element={<Updateproduct isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/manage-user" element={<ManageUser isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/manage-product" element={<ManageProduct isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/manage-review" element={<ManageReview isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/manage-contact" element={<ManageContact isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/error" element={<Error isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/contact" element={<Contacts isActive={isActive} setIsActive={setIsActive} />} />
+      <Route path="/admin/update-user/:_id" element={<UpdateUser isActive={isActive} setIsActive={setIsActive} />} />
       {/* <Route path="contact" element={<Contacts isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="card-page" element={<CardPage isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="error" element={<Error isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="create-user" element={<Create_user isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="create-product" element={<Addproduct isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="tab" element={<Tab isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="crousel" element={<Crousel isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="manage-user" element={<ManageUser isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="manage-product" element={<ManageProduct isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="manage-review" element={<ManageReview isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="manage-contact" element={<ManageContact isActive={isActive} setIsActive={setIsActive} />} />
+      
+     
+
+ 
+
+      
+
+
       <Route path="update-user/:_id" element={<UpdateUser isActive={isActive} setIsActive={setIsActive} />} />
-      <Route path="update-product/:_id" element={<Updateproduct isActive={isActive} setIsActive={setIsActive} />} />
+      
       <Route path="add-testimonial" element={<Addtestimonial isActive={isActive} setIsActive={setIsActive} />} />
       <Route path="testimonial-list" element={<Testimoniallist isActive={isActive} setIsActive={setIsActive} />} />
       <Route path="update-testimonial/:_id" element={<Updatetestimonial isActive={isActive} setIsActive={setIsActive} />} /> */}
