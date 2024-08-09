@@ -11,7 +11,8 @@ const secretkey = "Project12345#@"
 //google captcha secretkey
 const SECRETKEY =`6LeHHjspAAAAAOTsyIFI2gLT5TKsafPhP-ZLwcMp`
 
-
+//axios verifie google captcha
+const axios = require('axios')
 adduser = (req, res) => {
     var validator = '';
   
