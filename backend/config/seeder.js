@@ -1,4 +1,4 @@
-const User =require('../Models/Usermodel')
+const User =require('../Model/Usermodel')
 const bcrypt=require("bcrypt")
 const saltround=10
 
